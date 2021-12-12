@@ -16,7 +16,7 @@ claim = pd.read_csv('csv/CLAIM_DATA.csv', encoding='utf-16')
 #########CUST_DATA#########
 
 cust.shape
-cust.info()
+cust.info() 
 
 cust.describe(include='all')
 
